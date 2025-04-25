@@ -1,0 +1,71 @@
+.br-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem !important;
+}
+
+.container-lg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-logo {
+    width: 5.5rem;
+}
+
+.ufsj-logo.img-logo {
+    width: 7.2rem;
+}
+
+.br-list {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.dropdown-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+.dropdown-button, .br-item {
+    color: var(--red) !important;
+    background: none !important;
+}
+
+.dropdown-button:hover, .br-item:hover {
+    color: var(--black) !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    gap: .8rem;
+    padding: 1rem !important;
+    background-color: var(--background-grey);
+}
+
+.dropdown-content .br-item {
+    color: var(--black) !important;
+}
+
+.dropdown-content .br-item:hover {
+    color: var(--red) !important;
+}
+
+.dropdown-content.show {
+    display: flex;
+}

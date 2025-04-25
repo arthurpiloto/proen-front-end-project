@@ -1,0 +1,46 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+:root {
+    --background: #FFFFFF;
+    --black: #000000;
+    --red: #B71A2B;
+    --medium-red: #B82837;
+    --grey: #ADADAD;
+    --background-grey: #EEEEEE;
+    --light-grey: #F2F2F2;
+    --dark-grey: #7B7875;
+}
