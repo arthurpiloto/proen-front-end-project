@@ -1,4 +1,7 @@
+/* Header */
 .br-header {
+    position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,4 +71,66 @@
 
 .dropdown-content.show {
     display: flex;
+}
+
+/* Footer */
+.br-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem !important;
+}
+
+.logo {
+    display: flex;
+    align-items: start;
+}
+
+.container-lg-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.proen-footer-logo {
+    width: 5.5rem;
+}
+
+.ufsj-footer-logo {
+    width: 7.2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.instituition-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.social-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
