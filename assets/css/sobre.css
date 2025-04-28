@@ -1,0 +1,39 @@
+main .text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: justify;
+    gap: 1rem;
+}
+
+main .photo-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+main .photo-info .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .photo-info .card .photo {
+    max-width: 210px;
+    margin-bottom: .5rem !important;
+}
+
+main .photo-info .card .title span {
+    font-size: x-large;
+}
+
+main .photo-info .card .subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
