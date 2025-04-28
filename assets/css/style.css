@@ -42,7 +42,6 @@
     gap: .5rem;
 }
 
-
 .dropdown-button, .br-item {
     color: var(--red) !important;
     background: none !important;
@@ -73,13 +72,64 @@
     display: flex;
 }
 
+/* Main */
+main {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main .text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: justify;
+    gap: 1rem;
+}
+
+main .photo-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+main .photo-info .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .photo-info .card .photo {
+    max-width: 210px;
+    margin-bottom: .5rem !important;
+}
+
+main .photo-info .card .title span {
+    font-size: x-large;
+}
+
+main .photo-info .card .subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 .br-footer {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem !important;
+    padding: 1rem !important;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);
+    border: none !important;
 }
 
 .logo {
