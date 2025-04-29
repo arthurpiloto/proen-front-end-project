@@ -1,5 +1,5 @@
 main .br-table {
-    width: 1720px;
+    width: 100%;
 }
 
 main .br-table table thead tr th,
@@ -22,4 +22,13 @@ main .br-table table thead.secondary-table-header th {
 
 main .br-table table tbody tr td {
     background: white;
+}
+
+main .br-table table tbody tr td a {
+    background: none !important;
+    color: black ;
+}
+
+main .br-table table tbody tr td a:hover {
+    text-decoration: underline;
 }
