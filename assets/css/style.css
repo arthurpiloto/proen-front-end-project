@@ -1,7 +1,9 @@
 /* Header */
-.br-header {
+header.br-header {
     position: fixed;
     top: 0;
+    z-index: 999;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,15 +42,18 @@
     flex-direction: row;
     align-items: center;
     gap: .5rem;
-}
-
-.dropdown-button, .br-item {
     color: var(--red) !important;
     background: none !important;
 }
 
-.dropdown-button:hover, .br-item:hover {
+.dropdown-button:hover {
     color: var(--black) !important;
+}
+
+.dropdown-button i,
+.dropdown-button .br-item {
+    color: inherit !important;
+    background: none !important;
 }
 
 .dropdown-content {
@@ -62,6 +67,8 @@
 
 .dropdown-content .br-item {
     color: var(--black) !important;
+    background: none !important;
+    cursor: pointer;
 }
 
 .dropdown-content .br-item:hover {
@@ -79,6 +86,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding-bottom: 1.2rem !important;
 }
 
 /* Footer */

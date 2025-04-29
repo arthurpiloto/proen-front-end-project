@@ -18,6 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    document.querySelectorAll('.dropdown-content .br-item').forEach(span => {
+        span.addEventListener('click', (event) => {
+            event.stopPropagation();
+            const url = span.getAttribute('data-url');
+            if (url) {
+                window.location.href = url;
+            }
+        });
+    });
+
     window.addEventListener('click', () => {
         document.querySelectorAll('.dropdown-content').forEach(dropdown => {
             dropdown.classList.remove('show');
