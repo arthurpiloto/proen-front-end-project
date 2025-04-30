@@ -47,7 +47,7 @@ header.br-header {
 }
 
 .dropdown-button:hover {
-    color: var(--black) !important;
+    color: var(--text) !important;
 }
 
 .dropdown-button i,
@@ -66,7 +66,7 @@ header.br-header {
 }
 
 .dropdown-content .br-item {
-    color: var(--black) !important;
+    color: var(--text) !important;
     background: none !important;
     cursor: pointer;
 }

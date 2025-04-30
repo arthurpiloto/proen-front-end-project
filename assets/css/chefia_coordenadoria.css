@@ -26,7 +26,7 @@ main .br-table table tbody tr td {
 
 main .br-table table tbody tr td a {
     background: none !important;
-    color: black ;
+    color: var(--text);
 }
 
 main .br-table table tbody tr td a:hover {
