@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    document.querySelectorAll('.dropdown-content .br-item').forEach(span => {
-        span.addEventListener('click', (event) => {
+    document.querySelectorAll('[data-url]').forEach(el => {
+        el.addEventListener('click', (event) => {
             event.stopPropagation();
-            const url = span.getAttribute('data-url');
+            const url = el.getAttribute('data-url');
             if (url) {
                 window.location.href = url;
             }
