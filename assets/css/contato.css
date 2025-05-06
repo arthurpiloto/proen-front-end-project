@@ -1,0 +1,29 @@
+main {
+    align-items: start;
+}
+
+main .br-table {
+    width: 70%;
+}
+
+main .br-table table thead tr th,
+main .br-table table tbody tr td {
+    padding: .8rem !important;
+}
+
+main .br-table table thead.table-header tr th {
+    font-size: x-large;
+}
+
+main .br-table table thead.main-table-header th {
+    color: white;
+    background-color: var(--red);
+}
+
+main .br-table table thead.secondary-table-header th {
+    background-color: var(--light-grey);
+}
+
+main .br-table table tbody tr td {
+    background: white;
+}
