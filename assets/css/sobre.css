@@ -23,7 +23,8 @@ main .photo-info .card {
 }
 
 main .photo-info .card .photo {
-    max-width: 210px;
+    width: 200px;
+    height: 200px;
     margin-bottom: .5rem !important;
 }
 
